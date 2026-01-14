@@ -1,0 +1,2 @@
+-- 同步Service模块的数据库脚本
+-- Admin模块使用相同的数据库schema

@@ -1,0 +1,21 @@
+# LangChain4j配置
+langchain4j:
+  openai:
+    # OpenAI API Key (需要替换为实际的Key)
+    api-key: ${OPENAI_API_KEY:your-openai-api-key-here}
+    # 模型名称
+    model-name: gpt-3.5-turbo
+    # 超时时间(秒)
+    timeout: 60
+    # 最大Token数
+    max-tokens: 2048
+    # 温度参数 (0-2)
+    temperature: 0.7
+    # Top P参数 (0-1)
+    top-p: 1.0
+
+# 日志配置
+logging:
+  level:
+    dev.langchain4j: DEBUG
+    io.github.fyy.nexusai.engine: DEBUG

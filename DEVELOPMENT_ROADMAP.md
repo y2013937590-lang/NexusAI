@@ -44,20 +44,48 @@ Week 19-24 │████████████████████│ �
   - `usage_record` - 用量记录表
 - [ ] 初始化MySQL数据库 + Flyway版本管理
 
-**周三 (Day 4)**
-- [ ] 集成Redis
-  - 配置连接池
-  - 封装RedisTemplate工具类
-- [ ] 集成LangChain4j
-  - 添加Maven依赖
-  - 测试OpenAI模型调用
+**✅ Week 1 已完成 (2025-01-14)**
 
-**周四 (Day 5)**
-- [ ] 实现API网关基础功能
-  - 统一请求路由
-  - 全局异常处理
-  - 统一响应格式封装
-- [ ] 配置跨域CORS
+#### Day 1-2: 项目初始化
+- [x] 创建多模块Maven工程结构 (5个子模块)
+- [x] 配置Spring Boot 3.2.1 + Java 17环境
+- [x] 集成Spring Cloud Gateway
+- [x] 配置Prometheus监控端点
+- [x] 创建统一响应格式
+- [x] 创建健康检查接口
+
+#### Day 3: 数据库设计
+- [x] 设计6张核心数据库表
+- [x] 初始化MySQL数据库
+- [x] 集成Flyway版本管理
+- [x] 配置Druid连接池
+- [x] 配置MyBatis Plus
+
+#### Day 4: 基础设施
+- [x] 集成Redis + 连接池
+- [x] 封装RedisTemplate工具类
+- [x] 集成LangChain4j
+- [x] 测试OpenAI模型调用
+- [x] 创建ChatService和ChatController
+
+#### Day 5: 网关增强
+- [x] 实现全局响应过滤器(响应时间统计)
+- [x] 实现请求日志过滤器
+- [x] 优化异常处理
+- [x] 完善跨域配置
+
+#### Day 6-7: 监控与文档
+- [x] 集成Prometheus + Micrometer
+- [x] 配置JVM、HTTP、数据库监控
+- [x] 编写API文档
+- [x] 编写部署文档
+- [x] 编写快速开始指南
+- [x] 编写项目状态文档
+- [x] **里程碑评审**: ✅ 项目框架可运行,能成功调用OpenAI接口
+
+---
+
+## 🚀 Phase 2: 核心服务开发 (Week 2-7)
 
 **周五 (Day 6-7)**
 - [ ] 集成Prometheus + Micrometer
